@@ -27,6 +27,9 @@ public class Main {
         
         Media s5 = new PodcastEpisode("DXYZ Gaming Journey ",3600, "Ervin Estolano",13);
         s5.play();
+        
+        Media s6 = new Audiobook("House at Cerulean Sea", 16600, "Audiobook Series 1","TJ Klune", "Sire Manalo");
+        s6.play();
     }
 }
     
