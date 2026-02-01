@@ -21,6 +21,12 @@ public class Main {
         
         Media s3 = new Song ("Suki Suki Daisuki ",300," Ouro Kronii");
         s3.play();
+        
+        Media s4 = new Podcast("DXYZ Gaming Journey ", 3600, "Ervin Estolano");
+        s4.play();
+        
+        Media s5 = new PodcastEpisode("DXYZ Gaming Journey ",3600, "Ervin Estolano",13);
+        s5.play();
     }
 }
     

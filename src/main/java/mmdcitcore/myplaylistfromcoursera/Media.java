@@ -10,9 +10,9 @@ package mmdcitcore.myplaylistfromcoursera;
  */
 abstract class Media {
    
-    //declaring variables 
-   private String title;
-   private int durationInSeconds;
+    //sharing fields across all media types
+   protected String title;
+   protected int durationInSeconds;
    
    //constructor
    public Media (String title, int duration){
@@ -30,6 +30,7 @@ abstract class Media {
         return durationInSeconds;
     }
     
+    //Abstract method : all media types must define their play() behavior
     public abstract void play();
 }
     
